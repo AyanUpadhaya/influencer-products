@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+:root{
+    --primary-color: #3A3A3A;
+    --secondary-color:#E02C6D;
+}
+body{
+    font-family: 'Poppins';
+}
+/* HEADER */
+.headers{
+    padding:67px 120px;
+}
+.headers .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.headers .navbar .brand{
+    color :var(--primary-color);
+    font-size: 24px;
+    font-weight: 700px;
+   
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    gap: 34px;
+}
+.nav-list .list-item{
+    margin: 0;
+    padding:0;
+}
+.list-item .nav-link{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+/* head content */
+.head-content{
+    display: flex;
+    gap: 133px;
+    margin-bottom: 100px;
+
+}
+.content{
+    color:var(--primary-color);
+}
+.content .content-title{
+    font-size: 52px;
+    font-weight: 700;
+    margin-top: 80px;
+}
+.content .content-decription{
+    font-weight: 600;
+    margin-bottom:16.1px;
+    width:505px;
+}
+.photo-camera{
+    width: 442;
+    padding: 30px 33px 31px 2px;
+}
+/*  influencers */
+.influencer-bar{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-inline:165px;
+    padding: 30px 60px;
+}
+
+/* button */
+.btn{
+    padding:10px 24px;
+    border-radius: 41px;
+    width: 196px;
+    height: 44px;
+} 
+.btn-primary{
+    font-weight: 700;
+    color:#ffffff;
+    background-color: var(--secondary-color);
+}
+/* MAIN */
